@@ -21,7 +21,7 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="../public/PurpleAdmin-Free-Admin-Template-master/assets/images/favicon1.ico">
+	<link rel="shortcut icon" href="images/favicon1.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
@@ -72,13 +72,13 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<ul>
-							<li class="active"><a href="http://localhost/fyp/fyp/public/welcome">Home</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/login">Quiz</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/login">Log In</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/registration">Register</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/login">Skincare Categories</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/login">Skincare Routine</a></li>
-							<li><a href="http://localhost/fyp/fyp/public/login">Tips</a></li>
+							<li class="active"><a href="welcome">Home</a></li>
+							<li><a href="login">Quiz</a></li>
+							<li><a href="login">Log In</a></li>
+							<li><a href="registration">Register</a></li>
+							<li><a href="login">Skincare Categories</a></li>
+							<li><a href="login">Skincare Routine</a></li>
+							<li><a href="login">Tips</a></li>
 						</ul>
 					</div>
 				</div>
@@ -92,7 +92,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="colorlib-navbar-brand">
-							<a class="colorlib-logo" href="http://localhost/fyp/fyp/public/welcome"></i><span>SkinFerm</span></a>
+							<a class="colorlib-logo" href="welcome"></i><span>SkinFerm</span></a>
 						</div>
 						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 					</div>
@@ -112,7 +112,7 @@
 				   						<span class="icon"></span>
 					   					<h1>The Importance of Knowing Your Skin Type</h1>
 					   					<p>There are basically five different skin types. The manufacturers of skincare products keep this in mind when designing their serums, washes, etc.</p>
-					   					<p><a href="http://localhost/fyp/fyp/public/login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
+					   					<p><a href="login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
 					   					<div class="desc2"></div>
 				   					</div>
 				   				</div>
@@ -130,7 +130,7 @@
 				   						<span class="icon"></span>
 					   					<h1>Skin Type &amp; Care</h1>
 					   					<p>No matter what your skin type is, a daily skin care routine can help you maintain overall skin health and improve specific concerns like acne, scarring, and dark spots.</p>
-					   					<p><a href="http://localhost/fyp/fyp/public/login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
+					   					<p><a href="login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
 					   					<div class="desc2"></div>
 					   				</div>
 				   				</div>
@@ -148,7 +148,7 @@
 				   						<span class="icon"></span>
 					   					<h1>We are Helping You to Discover Your Skin Type</h1>
 					   					<p>There are basically five different skin types. The manufacturers of skincare products keep this in mind when designing their serums, washes, etc.</p>
-					   					<p><a href="http://localhost/fyp/fyp/public/login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
+					   					<p><a href="login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
 					   					<div class="desc2"></div>
 					   				</div>
 				   				</div>
@@ -166,7 +166,7 @@
 				   						<span class="icon"></span><i class="icon-map4"></i>
 					   					<h1>Answer a Quiz in our site</h1>
 					   					<p>Take our skin type quiz and learn how to build the best routine for your skin</p>
-					   					<p><a href="http://localhost/fyp/fyp/public/login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
+					   					<p><a href="login" class="btn btn-primary btn-lg btn-learn">Quiz!</a></p>
 					   					<div class="desc2"></div>
 					   				</div>
 				   				</div>

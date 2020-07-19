@@ -31,6 +31,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/adminlogin', function () {
+    return view('adminlogin');
+});
+
 
 //for login
 //Route::get('/main','MainController@index');
@@ -74,7 +78,7 @@ Route::post('/keeps', "AdminController@keeps");
 Route::post('/list', "ListController@list");
 Route::post('/update', "UpdateController@update");
 //Route::view('/register','register');
-Route::view('/registration','registration');
+//Route::view('/registration','registration');
 
 //userProfile
 Route::get('/userProfile', function () {
@@ -82,6 +86,27 @@ Route::get('/userProfile', function () {
 });
 
 //for login
+Route::get('login', function()
+{
+    return view('login');
+});
+Route::get('/logs', function () {
+    return post("UserController@logs");
+});
+
+//registration
+Route::get('registration', function()
+{
+    return view('registration');
+});
+Route::get('/store', function () {
+    return post("UserController@store");
+});
+
+Route::get('/login','UserController@logs');
+Route::post('/', array('as' => 'logs', 'uses' => 'UserController@logs'));
+Route::get('home', 'HomeController@index');
+
 Route::view('/login','login');
 Route::post('/logs', "UserController@logs");
 

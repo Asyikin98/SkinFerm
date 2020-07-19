@@ -18,8 +18,8 @@ class UserController extends Controller
       //$username=$request->input('username');
       $password=$request->input('password');
       DB::insert('insert into users(id,name,email,password) values(?,?,?,?)',[null,$name,$email,$password]);
-      //echo '<a href="http://localhost/fyp/fyp/public/quiz">Let Quizm</a>';
-      readfile("http://localhost/fyp/fyp/public/quiz");
+      echo '<a href="quiz">Go!</a>';
+      //header("location:quiz");
 
     }
 
@@ -33,8 +33,9 @@ class UserController extends Controller
 
       if(count($data))
       {
+        header("location:quiz");
         //echo '<a href="http://localhost/fyp/fyp/public/quiz">Let Quizm</a>';
-        readfile("http://localhost/fyp/fyp/public/quiz");
+        //readfile("http://localhost/fyp/fyp/public/quiz");
         //header("Location: http://localhost/fyp/fyp/public/quiz");
         //$_SESSION("userid")=$name;
         //readfile("http://localhost/fyp/fyp/public/dashboard");

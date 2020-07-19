@@ -63,31 +63,31 @@ function submitAnswer(){
       if (oily1 == "" && oily2 == "" && oily3 == "" && oily4 == "")
       {
         alert ("Oily Skin");
-        window.location = "http://localhost/fyp/fyp/public/oilyskincareCategory";
+        window.location = "oilyskincareCategory";
         return false;
       }
       else if (dry1 == "" && dry2 == "" && dry3 == "" && dry4 == "")
       {
         alert ("Dry Skin");
-        window.location = "http://localhost/fyp/fyp/public/dryskincareCategory";
+        window.location = "dryskincareCategory";
         return false;
       }
       else if (nor1 == "" && nor2 == "" && nor3 == "" && nor4 == "")
       {
         alert ("Normal Skin");
-        window.location = "http://localhost/fyp/fyp/public/norskincareCategory";
+        window.location = "norskincareCategory";
         return false;
       }
       else if (sen1 == "" && sen2 == "" && sen3 == "" && sen4 == "")
       {
         alert ("Sensitive Skin");
-        window.location = "http://localhost/fyp/fyp/public/senskincareCategory";
+        window.location = "senskincareCategory";
         return false;
       }
       else if (com1 == "" && com2 == "" && com3 == "" && com4 == "")
       {
         alert ("Combination Skin");
-        window.location = 'http://localhost/fyp/fyp/public/comskincareCategory';
+        window.location = 'comskincareCategory';
         return false;
       }
       else
@@ -103,7 +103,7 @@ function submitAnswer(){
 
   //display results
   var results = document.getElementById('results');
-  results.innerHTML = '<h3>You scored out of <br> <a href=\"http://localhost/fyp/fyp/public/dashboard">Dashboard</a><h3>';
+  results.innerHTML = '<h3>You scored out of <br> <a href=\"dashboard">Dashboard</a><h3>';
   alert('You score '+score+' out of ' +total);
   return false;
 }
