@@ -161,7 +161,7 @@
                <tbody>
                  <?php
                    $conn = mysqli_connect("localhost","root","");
-                   mysqli_select_db($conn, "product");
+                   mysqli_select_db($conn, "testing");
                  ?>
                  <?php
                  $res=mysqli_query($conn,"select * from oilycleanser");
