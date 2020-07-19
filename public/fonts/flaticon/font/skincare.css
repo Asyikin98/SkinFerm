@@ -1,0 +1,31 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 01/05/2018 02:28
+  	*/
+
+@font-face {
+  font-family: "Skincare";
+  src: url("./Skincare.eot");
+  src: url("./Skincare.eot?#iefix") format("embedded-opentype"),
+       url("./Skincare.woff") format("woff"),
+       url("./Skincare.ttf") format("truetype"),
+       url("./Skincare.svg#Skincare") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Skincare";
+    src: url("./Skincare.svg#Skincare") format("svg");
+  }
+}
+
+[class^="skincare-"]:before, [class*=" skincare-"]:before,
+[class^="skincare-"]:after, [class*=" skincare-"]:after {
+  font-family: skincare;
+  font-style: normal;
+}
+
+.skincare-beauty:before { content: "\f100"; }
+.skincare-cutlery:before { content: "\f101"; }
